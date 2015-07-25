@@ -142,8 +142,11 @@ a {
   display: -webkit-flex;
   display: flex;
   flex-direction: row;
+  -webkit-flex-direction: row;
   flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
   justify-content: space-around;
+  -webkit-justify-content: space-around;
   padding: 10px;
 }
 
@@ -151,11 +154,14 @@ a {
   display: -webkit-flex;
   display: flex;
   flex-direction: row;
+  -webkit-flex-direction: row;
   flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
   padding: 10px;
   max-width: 500px;
   margin: 0 auto;
   justify-content: space-around;
+  -webkit-justify-content: space-around;
 }
 
 .sticky {
@@ -208,9 +214,9 @@ img {
   display: inline-block;
   margin-top: 20px;
   padding: 1em 2.8em;
-  background-color: #448ccb;
+  background-color: #3cb878;
   color: #fff;
-  border: 1px solid #234b8b;
+  border: 1px solid #07743a;
   border-radius: 4px;
   font-size: 1.1em;
   text-decoration: none;
@@ -228,10 +234,19 @@ img {
 }
 
 #letsConnect {
-  background-color: #4A4A4A;
-  height: 300px;
+  background-color: #448ccb;
+  height: 130px;
   text-align: center;
-  padding-top: 110px;
+  padding-top: 0;
+}
+
+#footerContacts {
+  margin-bottom: 0;
+  background-color: #0072bc;
+}
+
+.menu-bottom {
+  color: black;
 }
 
 @media only screen and (max-width: 1024px) {
